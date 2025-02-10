@@ -1,4 +1,2 @@
-// index.js
-import { greeting } from "./greeting.js";
-
-console.log(greeting);
+console.log("salem");
+alert("salemlem")
