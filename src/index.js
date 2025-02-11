@@ -2,17 +2,12 @@
 import {component} from './page-load.js';
 import {menu} from './menu.js';
 import {about} from './about.js';
-//import './style.css';
 
-console.log("salem");
 
 const home = document.querySelector("button#home");
 const menuu = document.querySelector("button#menuu");
 const aboutt = document.querySelector("button#aboutt");
 
-
-//console.log(mn).id;
-//const bts = document.querySelectorAll('button');
 
 (function default_load()
     {
@@ -29,7 +24,6 @@ const aboutt = document.querySelector("button#aboutt");
     }
   );
 
-  //const mn = document.querySelector("#menu");
   menuu.addEventListener('click', (event)=>
     {
       event.preventDefault();
