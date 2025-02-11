@@ -36,7 +36,7 @@ const aboutt = document.querySelector("button#aboutt");
       document.querySelector("#content").innerHTML = ""; 
       document.body.appendChild(menu()); 
     });
-  
+
   aboutt.addEventListener('click', (event)=>
     {
       //event.preventDefault();
@@ -44,5 +44,4 @@ const aboutt = document.querySelector("button#aboutt");
       document.body.appendChild(about()); 
     }
   );
-
 })();
