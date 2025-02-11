@@ -16,5 +16,8 @@ export function component() {
    contentElement.appendChild(myIcon);
    contentElement.appendChild(paragraph);
     
-    return element;
+  return element;
   }
+
+
+  
