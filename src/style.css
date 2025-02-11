@@ -11,13 +11,25 @@ header {
     padding: 40px;
 }
 
-p {
-    color: blue;
+button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif    ;
+
 }
 
 div {
     margin-top: 10px;
 }
+
+p {
+    color: white;
+    background-color: #d16413;
+    align-self: center;
+    padding: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+
 
 
 
