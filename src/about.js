@@ -9,7 +9,6 @@ export function about() {
    contentElement.appendChild(paragraph);
     
    contentElement.style = 'display: flex';
-   
    paragraph.style.alignSelf = 'center';
    paragraph.style.width = '80%';
    paragraph.style.height = '400px';
