@@ -10,8 +10,6 @@ export function menu() {
     myIcon.style.width = '80%';
     myIcon.style.height = '40%';
     myIcon.style.margin = 'auto';
-    
-
     contentElement.appendChild(myIcon);
     return contentElement;
 }
