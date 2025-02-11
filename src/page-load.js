@@ -1,22 +1,25 @@
-
 import img from './images/image.jpeg';
+//require('./style.css');
+
+
+
 export function component() {
     
-    const contentElement = document.querySelector("#content");
-    const element = document.createElement('div');
-    const paragraph = document.createElement('p');
-    paragraph.textContent= "crousti begin road";
-    // Lodash, now imported by this script
-    //element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-    //element.classList.add('hello');
-   // Add the image to our existing div.
+  const contentElement = document.querySelector("#content");
+  const element = document.createElement('div');
+  const paragraph = document.createElement('p');
 
-   const myIcon = new Image();
-   myIcon.src = img;
-   contentElement.appendChild(myIcon);
-   contentElement.appendChild(paragraph);
+  contentElement.style = 'display: flex';
+  const myIcon = new Image();
+  myIcon.src = img;
+  myIcon.style.alignSelf = 'center';
+  myIcon.style.width = '80%';
+  myIcon.style.height = '40%';
+  myIcon.style.margin = 'auto';
+  
+  contentElement.appendChild(myIcon);
     
-  return element;
+  return contentElement;
   }
 
 
