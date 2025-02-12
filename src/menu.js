@@ -1,15 +1,17 @@
 
 import img from './images/menu.jpeg';
+import { header, main } from "./index.js";
+
+
 export function menu() {
     const contentElement = document.querySelector("#content");
     const paragraph = document.createElement('p');
-    contentElement.style = 'display: flex';
+
+    contentElement.classList.add("menu");
+
     const myIcon = new Image();
     myIcon.src = img;
-    myIcon.style.alignSelf = 'center';
-    myIcon.style.width = '80%';
-    myIcon.style.height = '40%';
-    myIcon.style.margin = 'auto';
+    contentElement.classList.add("icon");
     contentElement.appendChild(myIcon);
     return contentElement;
 }

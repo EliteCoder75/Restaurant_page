@@ -37,3 +37,14 @@ footer {
     text-align: center;
     background-color: #d16413;
 }
+
+.menu {
+    display: flex;
+}
+
+.icon {
+    align-self: center;
+    width: 80%;
+    height: 40%;
+    margin: auto;
+}
