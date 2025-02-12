@@ -48,3 +48,18 @@ footer {
     height: 40%;
     margin: auto;
 }
+
+.about {
+    display: flex;
+    align-self: center;
+    width: 80%;
+    height: 400px;
+    margin: auto;
+}
+
+.page_load {
+    align-self: center;
+    width: 80%;
+    height: 40%;
+    margin: auto;
+}
