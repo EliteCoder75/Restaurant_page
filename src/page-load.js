@@ -17,7 +17,9 @@ export function component() {
   
   contentElement.appendChild(myIcon);  
   return contentElement;
-  }
+  } 
+
+  
 
 
   

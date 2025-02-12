@@ -3,7 +3,6 @@ import {component} from './page-load.js';
 import {menu} from './menu.js';
 import {about} from './about.js';
 
-
 const home = document.querySelector("button#home");
 const menuu = document.querySelector("button#menuu");
 const aboutt = document.querySelector("button#aboutt");
