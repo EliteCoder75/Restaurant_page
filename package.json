@@ -1,6 +1,8 @@
 {
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "dev": "webpack serve",
+    "deploy": "git subtree push --prefix dist origin gh-pages"
   },
   "devDependencies": {
     "css-loader": "^7.1.2",

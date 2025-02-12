@@ -4,12 +4,7 @@ import "./style.css";
 import {component} from './page-load.js';
 import {menu} from './menu.js';
 import {about} from './about.js';
-<<<<<<< HEAD
-=======
-export const header = document.querySelector("header");
-export const main = document.querySelector("main");
-export const footer = document.querySelector("footer");
->>>>>>> main
+
 
 
 const home = document.querySelector("button#home");
